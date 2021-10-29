@@ -5,10 +5,8 @@ var transporter = nodemailer.createTransport({
   auth: {
 	  user: 'shivamdwivedi24197@gmail.com.com',
       pass: 'zvyxjpanqkrnhvap',
-	  //host: 'smtp.gmail.com',
-	 // port: 587
-//	  user: 'hitechclassroomapp@gmail.com',
-//      pass: 'asdf@12345$'
+	  host: 'smtp.gmail.com',
+	 port: 587
   }
 });
 
